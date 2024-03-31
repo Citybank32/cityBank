@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* group Utilitie */
+.btn {
+    @apply border  px-4 py-1 rounded-full text-sm  font-semibold sm:dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 hover:text-white hover:border-transparent dark:focus:ring-offset-gray-800 m-1
+}
+
+.btn-purple{
+    @apply border-purple-200 text-purple-600
+}
+.btn-green{
+    @apply border-green-200 text-green-600
+}
